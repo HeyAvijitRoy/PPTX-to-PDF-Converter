@@ -1,13 +1,21 @@
-# No external Python packages required!
-# This script uses only Python built-in libraries:
-# - os
-# - subprocess
-# - sys
-# - pathlib
-# - platform
+# Python package dependencies
 
-# System requirement:
+# Required for PPTX Merger
+python-pptx>=0.6.21
+
+# Note: PPTX to PDF and PPTX to Images scripts use only built-in Python libraries
+# but require LibreOffice to be installed on the system
+
+# System requirements (not installable via pip):
 # - LibreOffice (https://www.libreoffice.org/)
 #   - Windows: Download from website
 #   - macOS: brew install --cask libreoffice
 #   - Linux: sudo apt-get install libreoffice
+#
+# Optional for enhanced image conversion:
+# - poppler-utils (for pdftoppm command)
+#   - Linux: sudo apt-get install poppler-utils
+#   - macOS: brew install poppler
+# - ImageMagick (alternative image converter)
+#   - Linux: sudo apt-get install imagemagick
+#   - macOS: brew install imagemagick
