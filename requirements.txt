@@ -1,0 +1,13 @@
+# No external Python packages required!
+# This script uses only Python built-in libraries:
+# - os
+# - subprocess
+# - sys
+# - pathlib
+# - platform
+
+# System requirement:
+# - LibreOffice (https://www.libreoffice.org/)
+#   - Windows: Download from website
+#   - macOS: brew install --cask libreoffice
+#   - Linux: sudo apt-get install libreoffice
